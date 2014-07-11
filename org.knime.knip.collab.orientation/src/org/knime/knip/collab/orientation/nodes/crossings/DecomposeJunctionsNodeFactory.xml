@@ -1,0 +1,20 @@
+<!DOCTYPE knimeNode PUBLIC "-//UNIKN//DTD KNIME Node 2.0//EN" "http://www.knime.org/Node.dtd">
+<knimeNode icon="orientation.png" type="Manipulator">
+	<name>Decompose Junctions</name>
+	<shortDescription>
+	</shortDescription>
+
+	<fullDescription>
+		<intro>
+		</intro>
+
+		<tab name="options">
+			<option name="Some parameter">ABC</option>
+		</tab>
+	</fullDescription>
+
+	<ports>
+		<inPort index="0" name="BitMask">Images and Labeling</inPort>
+		<outPort index="0" name="DeletedJunctions">Shifted Scratch</outPort>
+	</ports>
+</knimeNode>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+     <extension
+           point="org.knime.workbench.repository.nodes">
+     </extension>
+     <extension
+           point="org.knime.workbench.repository.categories">
+        <category
+              description="Image Processing Projects"
+              level-id="projects"
+              name="Projects"
+              path="/community/knip/">
+        </category>
+        <category
+              level-id="orientation"
+              name="Orientation Measurement"
+              path="/community/knip/projects/">
+        </category>
+     </extension>
+     <extension
+           point="org.knime.workbench.repository.nodesets">
+        <nodeset
+              expert-flag="false"
+              factory-class="org.knime.knip.collab.orientation.nodes.OrientationNodeSetFactory"
+              id="org.knime.knip.collab.orientation.nodes.OrientationNodeSetFactory">
+        </nodeset>
+     </extension>
+</plugin>
