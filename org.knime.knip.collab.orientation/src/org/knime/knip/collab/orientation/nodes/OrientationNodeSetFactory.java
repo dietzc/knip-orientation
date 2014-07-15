@@ -9,7 +9,6 @@ import org.knime.core.node.NodeModel;
 import org.knime.core.node.NodeSetFactory;
 import org.knime.core.node.config.ConfigRO;
 import org.knime.knip.collab.orientation.nodes.crossings.DecomposeJunctionsNodeFactory;
-import org.knime.knip.collab.orientation.nodes.headestimation.HeadEstimationNodeFactory;
 import org.knime.knip.collab.orientation.nodes.measure.OrientationMeasurementNodeFactory;
 import org.knime.knip.collab.orientation.nodes.thinning.ThinningNodeFactory;
 
@@ -36,9 +35,6 @@ public class OrientationNodeSetFactory implements NodeSetFactory {
 
 		m_nodeFactories.put(
 				OrientationMeasurementNodeFactory.class.getCanonicalName(),
-				"/community/knip/projects/orientation");
-
-		m_nodeFactories.put(HeadEstimationNodeFactory.class.getCanonicalName(),
 				"/community/knip/projects/orientation");
 
 		return m_nodeFactories.keySet();
