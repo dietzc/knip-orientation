@@ -6,7 +6,7 @@
       provider-name="University of Konstanz">
 
    <description>
-      Collaboration with Uni Heidelberg (COS)
+      Collaboration with AG Scheer
    </description>
 
    <copyright>
@@ -728,7 +728,7 @@ propagated with or for interoperation with KNIME.
    </license>
 
    <plugin
-         id="org.knime.knip.collab.cos"
+         id="org.knime.knip.collab.orientation"
          download-size="0"
          install-size="0"
          version="0.0.0"/>
