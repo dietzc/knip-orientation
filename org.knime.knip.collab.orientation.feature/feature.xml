@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.knime.knip.collab.cos.feature"
-      label="KNIP Collaboration with Heidelberg COS"
+      id="org.knime.knip.collab.orientation.feature"
+      label="KNIP Orientation Measurement"
       version="0.5.0.qualifier"
       provider-name="University of Konstanz">
 
