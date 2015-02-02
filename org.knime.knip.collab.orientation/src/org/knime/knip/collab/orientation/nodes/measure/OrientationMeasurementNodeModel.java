@@ -6,7 +6,6 @@ import net.imglib2.Cursor;
 import net.imglib2.IterableInterval;
 import net.imglib2.algorithm.region.localneighborhood.Neighborhood;
 import net.imglib2.algorithm.region.localneighborhood.RectangleShape;
-import net.imglib2.algorithm.region.localneighborhood.RectangleShape.NeighborhoodsAccessible;
 import net.imglib2.img.Img;
 import net.imglib2.type.logic.BitType;
 import net.imglib2.view.Views;

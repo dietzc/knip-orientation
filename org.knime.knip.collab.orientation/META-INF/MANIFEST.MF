@@ -13,7 +13,14 @@ Require-Bundle: org.knime.base;bundle-version="[2.5.0,3.0.0)",
  org.knime.knip.base;bundle-version="[1.1.0,2.0.0)",
  org.knime.knip.core;bundle-version="[1.1.0,2.0.0)",
  org.knime.knip.imagej2.core;bundle-version="0.9.0",
- org.knime.knip.scijava;bundle-version="2.24.0"
+ imglib2;bundle-version="2.2.0",
+ imglib2-roi;bundle-version="0.2.120150118",
+ knip-tmp-imglib2-ops;bundle-version="0.1.4",
+ imagej-common;bundle-version="0.12.1",
+ scijava-common;bundle-version="2.37.0",
+ imglib2-algorithm;bundle-version="0.2.0",
+ imglib2-algorithm-fft;bundle-version="0.1.1",
+ imglib2-algorithm-gpl;bundle-version="0.1.2"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
 Import-Package: net.imglib2

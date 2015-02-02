@@ -2,13 +2,12 @@ package org.knime.knip.collab.orientation.nodes.crossings;
 
 import java.util.List;
 
+import net.imagej.ImgPlus;
 import net.imglib2.Cursor;
 import net.imglib2.IterableInterval;
 import net.imglib2.RandomAccess;
 import net.imglib2.algorithm.region.localneighborhood.Neighborhood;
 import net.imglib2.algorithm.region.localneighborhood.RectangleShape;
-import net.imglib2.algorithm.region.localneighborhood.RectangleShape.NeighborhoodsAccessible;
-import net.imglib2.meta.ImgPlus;
 import net.imglib2.type.logic.BitType;
 import net.imglib2.view.Views;
 
